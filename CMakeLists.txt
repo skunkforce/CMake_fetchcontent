@@ -20,5 +20,5 @@ if(NOT CLI11_FOUND)
 	fetchcontent_makeavailable(CLI11)
 endif()
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} CLI11::CLI11)
